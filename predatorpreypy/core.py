@@ -1,5 +1,7 @@
 import numpy as np
 
+from .parameters import FOOD_MIN_INIT, FOOD_MAX_INIT
+
 class Environment:
     def __init__(self, dims, n_predators, n_prey):
         x_max, y_max = dims

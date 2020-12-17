@@ -1,5 +1,7 @@
 import numpy as np
 
+from .parameters import METABOLISM
+
 class Agent:
     def __init__(self, env, x, y, energy):
         self._env = env
