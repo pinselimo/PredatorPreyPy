@@ -1,5 +1,6 @@
 import numpy as np
 
+from .agents import Predator, Prey
 from .parameters import FOOD_MIN_INIT, FOOD_MAX_INIT
 
 class Environment:
